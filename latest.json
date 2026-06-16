@@ -1,0 +1,12 @@
+{
+  "version": "0.1.0",
+  "notes": "GALLERY v4 - first public release for Windows.",
+  "pub_date": "2026-06-16T12:00:00Z",
+  "portableUrl": "https://github.com/x0mirag0x/GALLERY-releases/releases/download/v0.1.0/GALLERY_0.1.0_x64-portable.zip",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZjNxaGcwT05vYktrREx2ZjA1VE4xSDF2T1BPeGxqSHRJWUZ1Qk5KRlczekZDY2FJdlhqNm5xSWNXUzhVY0VCQ2xpeTFNWmVJVTNUWEJvck95SW0rRzhZMUZKVGQrdGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNjM2NDY5CWZpbGU6R0FMTEVSWV8wLjEuMF94NjQtc2V0dXAuZXhlCkFXbWRSb09hcW16b2VJeXpCdlFSK3Q4ZEtaMkxOQVN1TW9rYjkzRUdRemNkYllRVlRaQm1Dc0Uwdk9YRUgwQkl6ZnBaYzRreUYxYytCNzVOMSt6SENBPT0K",
+      "url": "https://github.com/x0mirag0x/GALLERY-releases/releases/download/v0.1.0/GALLERY_0.1.0_x64-setup.exe"
+    }
+  }
+}
