@@ -1,11 +1,8 @@
 {
   "active": false,
   "id": "example",
-  "titleRu": "Подарок от автора GALLERY",
-  "titleEn": "A gift from GALLERY",
-  "bodyRu": "Текст для подписчиков.",
-  "bodyEn": "Text for subscribers.",
-  "buttonLabelRu": "Перейти",
-  "buttonLabelEn": "Open",
-  "buttonUrl": "https://t.me/GalleryAskBot"
+  "page": "dev-preview.html",
+  "displayHours": 24,
+  "windowTitleRu": "Подарок от автора GALLERY",
+  "windowTitleEn": "A gift from GALLERY"
 }
