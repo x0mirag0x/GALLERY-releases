@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="GALLERY v4 - local prompt and media gallery for Windows." />
+  <title>GALLERY v4 - Download</title>
+  <style>
+    :root {
+      --bg: #0c0e12;
+      --surface: #141821;
+      --border: #2a3142;
+      --text: #e8ebf4;
+      --muted: #8b92a8;
+      --accent: #53d2ed;
+      --accent-hover: #79e2f6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: radial-gradient(ellipse 120% 80% at 50% -20%, rgba(83, 210, 237, 0.18), transparent 55%), var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .lang-bar {
+      display: flex;
+      justify-content: flex-end;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem 0;
+    }
+    .lang-switch {
+      display: inline-flex;
+      gap: 0.25rem;
+      padding: 0.2rem;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+    }
+    .lang-switch button {
+      border: none;
+      background: transparent;
+      color: var(--muted);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 0.35rem 0.65rem;
+      border-radius: 7px;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .lang-switch button.active {
+      background: var(--accent);
+      color: #0c0e12;
+    }
+    .lang-switch button:not(.active):hover { color: var(--text); }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.5rem 4rem;
+      text-align: center;
+    }
+    .logo {
+      font-size: clamp(2rem, 6vw, 2.75rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin: 0;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 0.2em 0.55em;
+      border-radius: 8px;
+      background: var(--accent);
+      color: #0c0e12;
+      vertical-align: middle;
+      margin-left: 0.35rem;
+    }
+    .lead {
+      margin: 1.25rem auto 0;
+      max-width: 32rem;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+    .cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      margin-top: 2rem;
+      padding: 0.85rem 1.75rem;
+      border-radius: 12px;
+      background: var(--accent);
+      color: #0c0e12;
+      font-size: 1.05rem;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 8px 28px rgba(83, 210, 237, 0.35);
+      transition: background 0.2s, transform 0.15s;
+    }
+    .cta svg { width: 1.15rem; height: 1.15rem; flex-shrink: 0; }
+    .cta:hover { background: var(--accent-hover); transform: translateY(-1px); }
+    .cta.disabled { opacity: 0.5; pointer-events: none; }
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    .cta-row .cta { margin-top: 0; }
+    .cta-secondary {
+      background: transparent;
+      color: var(--accent);
+      border: 1.5px solid var(--accent);
+      box-shadow: none;
+    }
+    .cta-secondary:hover {
+      background: rgba(83, 210, 237, 0.12);
+      color: var(--accent-hover);
+      border-color: var(--accent-hover);
+    }
+    .download-hint {
+      margin: 1rem auto 0;
+      max-width: 28rem;
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .ver { margin-top: 0.75rem; font-size: 0.85rem; color: var(--muted); }
+    .ver a { color: var(--accent); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 3rem;
+      text-align: left;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.15rem 1.25rem;
+    }
+    .card-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.25rem;
+      height: 2.25rem;
+      margin-bottom: 0.65rem;
+      color: var(--accent);
+    }
+    .card-icon svg { width: 1.5rem; height: 1.5rem; }
+    .card h2 { margin: 0 0 0.4rem; font-size: 0.95rem; color: var(--text); }
+    .card p { margin: 0; font-size: 0.88rem; color: var(--muted); }
+    .card a { color: var(--accent); text-decoration: none; }
+    .card a:hover { color: var(--accent-hover); text-decoration: underline; }
+    footer { margin-top: 3rem; font-size: 0.8rem; color: var(--muted); }
+    footer a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="ico-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 3v10m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/>
+    </symbol>
+    <symbol id="ico-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="5" y="11" width="14" height="10" rx="2"/>
+      <path d="M8 11V8a4 4 0 0 1 8 0v3"/>
+    </symbol>
+    <symbol id="ico-folder" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/>
+    </symbol>
+    <symbol id="ico-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M7 9h10M7 13h6"/>
+      <path d="M4 19l1.5-4.5A2 2 0 0 1 7.4 13H18a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h2z"/>
+    </symbol>
+  </svg>
+
+  <div class="lang-bar">
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button type="button" id="lang-en" class="active">EN</button>
+      <button type="button" id="lang-ru">RU</button>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <h1 class="logo">GALLERY <span class="badge">v4</span></h1>
+    <p class="lead" data-i18n="lead"></p>
+
+    <div class="cta-row">
+      <a id="download-btn" class="cta disabled" href="#" aria-disabled="true">
+        <svg><use href="#ico-download"/></svg>
+        <span id="download-label" data-i18n="downloadSoon"></span>
+      </a>
+      <a id="portable-btn" class="cta cta-secondary disabled" href="#" aria-disabled="true">
+        <svg><use href="#ico-download"/></svg>
+        <span id="portable-label" data-i18n="portableSoon"></span>
+      </a>
+    </div>
+    <p id="download-hint" class="download-hint" data-i18n="downloadHint"></p>
+    <p id="version-line" class="ver" data-i18n="checking"></p>
+
+    <div class="grid">
+      <div class="card">
+        <div class="card-icon"><svg><use href="#ico-lock"/></svg></div>
+        <h2 data-i18n="card1Title"></h2>
+        <p data-i18n="card1Body"></p>
+      </div>
+      <div class="card">
+        <div class="card-icon"><svg><use href="#ico-folder"/></svg></div>
+        <h2 data-i18n="card2Title"></h2>
+        <p data-i18n="card2Body"></p>
+      </div>
+      <div class="card">
+        <div class="card-icon"><svg><use href="#ico-chat"/></svg></div>
+        <h2 data-i18n="card3Title"></h2>
+        <p data-i18n="card3Body"></p>
+      </div>
+    </div>
+
+    <footer>
+      GALLERY v4 · <a id="releases-link" href="https://github.com/x0mirag0x/GALLERY-releases/releases" data-i18n="allReleases"></a>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      var MANIFEST_URL = "https://github.com/x0mirag0x/GALLERY-releases/releases/latest/download/latest.json";
+      var RELEASES_URL = "https://github.com/x0mirag0x/GALLERY-releases/releases";
+      var STORAGE_KEY = "gallery.landingLang";
+
+      var STR = {
+        en: {
+          htmlLang: "en",
+          title: "GALLERY v4 - Download",
+          metaDesc: "GALLERY v4 - local prompt and media gallery for Windows.",
+          lead: "A local prompt and media gallery on your PC. Folders, tags, publish calendar - no cloud required.",
+          download: "Installer (Setup)",
+          downloadSoon: "Coming soon on Releases",
+          portable: "Portable ZIP",
+          portableSoon: "Portable soon",
+          downloadHint: "Installer: Start Menu, default C: · Portable: unzip anywhere (e.g. D:\\GALLERY\\)",
+          checking: "Checking for the latest version…",
+          version: "Latest version: ",
+          noBuild: 'No build yet - watch <a href="' + RELEASES_URL + '">releases</a>.',
+          card1Title: "Your data stays local",
+          card1Body: "Database and files on your disk, not on someone else's server.",
+          card2Title: "Profiles",
+          card2Body: "Multiple libraries: personal, work, projects.",
+          card3Title: "Support",
+          card3Body: '<a href="https://t.me/GalleryAskBot">Telegram @GalleryAskBot</a>',
+          allReleases: "All releases"
+        },
+        ru: {
+          htmlLang: "ru",
+          title: "GALLERY v4 - скачать",
+          metaDesc: "GALLERY v4 - локальная галерея промптов и медиа для Windows.",
+          lead: "Локальная галерея промптов и медиа на вашем ПК. Папки, теги, календарь публикаций - без облака.",
+          download: "Установщик (Setup)",
+          downloadSoon: "Скоро в Releases",
+          portable: "Portable ZIP",
+          portableSoon: "Portable скоро",
+          downloadHint: "Установщик: Пуск, по умолчанию C: · Portable: распаковать куда угодно (например D:\\GALLERY\\)",
+          checking: "Проверка последней версии…",
+          version: "Актуальная версия: ",
+          noBuild: 'Пока нет сборки - следите за <a href="' + RELEASES_URL + '">релизами</a>.',
+          card1Title: "Данные у вас",
+          card1Body: "База и файлы на диске, не на чужом сервере.",
+          card2Title: "Профили",
+          card2Body: "Несколько библиотек: личное, работа, проекты.",
+          card3Title: "Поддержка",
+          card3Body: '<a href="https://t.me/GalleryAskBot">Telegram @GalleryAskBot</a>',
+          allReleases: "Все версии"
+        }
+      };
+
+      var lang = "en";
+      var latestVersion = null;
+      var downloadReady = false;
+      var portableReady = false;
+
+      function applyLang(next) {
+        lang = next === "ru" ? "ru" : "en";
+        try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+        var t = STR[lang];
+        document.documentElement.lang = t.htmlLang;
+        document.title = t.title;
+        var meta = document.querySelector('meta[name="description"]');
+        if (meta) meta.setAttribute("content", t.metaDesc);
+
+        document.getElementById("lang-en").classList.toggle("active", lang === "en");
+        document.getElementById("lang-ru").classList.toggle("active", lang === "ru");
+
+        document.querySelector("[data-i18n=lead]").textContent = t.lead;
+        document.querySelector("[data-i18n=card1Title]").textContent = t.card1Title;
+        document.querySelector("[data-i18n=card1Body]").textContent = t.card1Body;
+        document.querySelector("[data-i18n=card2Title]").textContent = t.card2Title;
+        document.querySelector("[data-i18n=card2Body]").textContent = t.card2Body;
+        document.querySelector("[data-i18n=card3Title]").textContent = t.card3Title;
+        document.querySelector("[data-i18n=card3Body]").innerHTML = t.card3Body;
+
+        document.getElementById("download-label").textContent =
+          downloadReady ? t.download : t.downloadSoon;
+
+        document.getElementById("portable-label").textContent =
+          portableReady ? t.portable : t.portableSoon;
+
+        document.querySelector("[data-i18n=downloadHint]").textContent = t.downloadHint;
+
+        var verEl = document.getElementById("version-line");
+        if (downloadReady && latestVersion) {
+          verEl.textContent = t.version + latestVersion;
+        } else if (!downloadReady && latestVersion === null) {
+          verEl.innerHTML = t.noBuild;
+        } else {
+          verEl.textContent = t.checking;
+        }
+
+        document.getElementById("releases-link").textContent = t.allReleases;
+      }
+
+      document.getElementById("lang-en").addEventListener("click", function () { applyLang("en"); });
+      document.getElementById("lang-ru").addEventListener("click", function () { applyLang("ru"); });
+
+      try {
+        var saved = localStorage.getItem(STORAGE_KEY);
+        if (saved === "ru" || saved === "en") lang = saved;
+      } catch (e) {}
+
+      var btn = document.getElementById("download-btn");
+      var portableBtn = document.getElementById("portable-btn");
+      fetch(MANIFEST_URL, { cache: "no-store" })
+        .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
+        .then(function (data) {
+          var win = data.platforms && (data.platforms["windows-x86_64"] || data.platforms["windows-x86-64"]);
+          if (!win || !win.url) throw new Error("no windows build");
+          btn.href = win.url;
+          btn.classList.remove("disabled");
+          btn.removeAttribute("aria-disabled");
+          downloadReady = true;
+          latestVersion = data.version || "-";
+
+          if (data.portableUrl) {
+            portableBtn.href = data.portableUrl;
+            portableBtn.classList.remove("disabled");
+            portableBtn.removeAttribute("aria-disabled");
+            portableReady = true;
+          }
+        })
+        .catch(function () {
+          downloadReady = false;
+          latestVersion = null;
+        })
+        .finally(function () { applyLang(lang); });
+    })();
+  </script>
+</body>
+</html>
