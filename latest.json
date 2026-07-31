@@ -1,12 +1,12 @@
 {
-  "version": "0.2.2",
-  "notes": "GALLERY v4 - 0.2.2",
-  "pub_date": "2026-07-27T20:00:00Z",
-  "portableUrl": "https://github.com/x0mirag0x/GALLERY-releases/releases/download/v0.2.2/GALLERY_0.2.2_x64-portable.zip",
+  "version": "0.2.3",
+  "notes": "GALLERY v4 - 0.2.3",
+  "pub_date": "2026-07-31T01:40:00Z",
+  "portableUrl": "https://github.com/x0mirag0x/GALLERY-releases/releases/download/v0.2.3/GALLERY_0.2.3_x64-portable.zip",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZjNxaGcwT05vYkoyU1h2cUQzaGsrZlN6U1krNVo1UFhXa3FESlNwdlVvRDBRQWZ0Z3NFOWRGUFRRS2tuMVdoRmlxbVpUNjV2R1ZwQkg0aEEyR3k5ZEdqb2M0SlBhalFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTgzMzIxCWZpbGU6R0FMTEVSWV8wLjIuMl94NjQtc2V0dXAuZXhlClk4VUlwQWtIcGZrakM1bG16U01mMDZXQzBLM2QzLzU0REVkN0Jlc2FEQWgvUm42MGZHdEVPVVMzZHl6YVZIM1hobW9hYURqY3dGaVAvMnVMNk93ZERnPT0K",
-      "url": "https://github.com/x0mirag0x/GALLERY-releases/releases/download/v0.2.2/GALLERY_0.2.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZjNxaGcwT05vYkFNTFRkTU5XN2N2dFdRK0ZJSVhOM3VKcG9ZZzdBSitHb2h1K0xjOW9lZFREWk5wRXRrTGRkWFB3QkdYZlJ5SzlybmxHSzlqUnF2alNiZ2FHYVBtN3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NDYxODE3CWZpbGU6R0FMTEVSWV8wLjIuM194NjQtc2V0dXAuZXhlCkIwUDI2dWUwTmx4WGg1MGJtMzRBU0VsRkZ0S2Q5cVk4Z1pNdCtxUG1jODNTazNEVUdPYmJsb1VkMFVzSEp0cDFoaWZzRGg1bS9EZFhwNk5tZ3ZpSENnPT0K",
+      "url": "https://github.com/x0mirag0x/GALLERY-releases/releases/download/v0.2.3/GALLERY_0.2.3_x64-setup.exe"
     }
   }
 }
