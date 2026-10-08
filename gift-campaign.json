@@ -1,8 +1,8 @@
 {
-  "active": false,
-  "id": "example",
-  "page": "dev-preview.html",
-  "displayHours": 24,
-  "windowTitleRu": "Подарок от автора GALLERY",
-  "windowTitleEn": "A gift from GALLERY"
+  "active": true,
+  "id": "thanks-2026-10",
+  "page": "thanks-test.html",
+  "displayHours": 168,
+  "windowTitleRu": "Подарок от автора",
+  "windowTitleEn": "Author's gift"
 }

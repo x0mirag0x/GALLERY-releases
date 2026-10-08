@@ -1,16 +1,16 @@
 {
-  "version": "0.2.4",
-  "notes": "GALLERY 0.2.4 - поиск похожих по фото, обновление portable прямо в вашей папке, защита путей при бэкапе, удобнее первая корневая папка",
-  "pub_date": "2026-10-08T18:25:00Z",
-  "portableUrl": "https://github.com/x0mirag0x/GALLERY-releases/releases/download/0.2.4/GALLERY_0.2.4_x64-portable.zip",
+  "version": "0.2.5",
+  "notes": "GALLERY 0.2.5 - список публикаций удобнее, дата-фильтр, подарок-благодарность, обновление portable в вашей папке",
+  "pub_date": "2026-10-08T21:57:11Z",
+  "portableUrl": "https://github.com/x0mirag0x/GALLERY-releases/releases/download/0.2.5/GALLERY_0.2.5_x64-portable.zip",
   "portableExe": {
-    "url": "https://github.com/x0mirag0x/GALLERY-releases/releases/download/0.2.4/GALLERY_0.2.4_x64-portable.exe",
-    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZjNxaGcwT05vYk95RjBYd0RTU1o0Y2Nsa1ljTzlvTDh3RG13clB1b2Y4N2ppbG1rNTNUWlIxcHE2NHVhTFp4NzdaUEg1RUhKZkRjNHFoVXR5THV5enp2TkxSOEl4NGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDgzNjMwCWZpbGU6R0FMTEVSWV8wLjIuNF94NjQtcG9ydGFibGUuZXhlCmNKV09BbXBDTEZGVXdFb3l3SVMxWldmb3VYSUE0bWtRV1ZaMmZoUTZtN2pTNy9sYUY1VEVmK1V2TGFWeVl2OHRXVittbk9oU0JIdmIvcldVRkwyOUJRPT0K"
+    "url": "https://github.com/x0mirag0x/GALLERY-releases/releases/download/0.2.5/GALLERY_0.2.5_x64-portable.exe",
+    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZjNxaGcwT05vYkFLWUxUSERzVFRKK2EzelhWaVRPWkhZRDNWRDRCRk5sWHNkamFTV2lmcytYS1VZeUwzQytwY0M5WmJBZW9udjEvQVhYQWdMYXJZREhHOGkwTTlvUlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDk2NjI3CWZpbGU6R0FMTEVSWV8wLjIuNV94NjQtcG9ydGFibGUuZXhlCjVvejF6UFR4eFV6R2xYS3RTT1MzY3ZBeE9TcS9aYkdJNmdLYjhFR3J5YXhUdkdGU0h4ZC9MelhIc3E5UHBoSTgvcEVoV0M4REl5aVRoV1BIbllwMEFRPT0K"
   },
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZjNxaGcwT05vYkM3ZzEraUN5Y2dES1MwT1JuWjNCcCtBY1RrYTRoWEJ0bXVyNXVMRFpKQ1RQVWJvaGJhZUR5dVQ2VU5XVk9KcXpOcCtPYldyS3laMXVrNk53RFpma0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDgzNjI5CWZpbGU6R0FMTEVSWV8wLjIuNF94NjQtc2V0dXAuZXhlClZ0WURrRWZ1T3RYTVRuTlFSdjd4WDY2TkZ3ZVRVckFaZDhDdVp3Ym50YTNqejJWUkJrMmk3YWNTT25PKzFnM2VnOUhndVVoZGtodStaeUhTeTMwUER3PT0K",
-      "url": "https://github.com/x0mirag0x/GALLERY-releases/releases/download/0.2.4/GALLERY_0.2.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZjNxaGcwT05vYkcraEZKeHdOeHNBVkdaeUFtQ296N0lSSVZpQkl4SC9CdzVGdFpUa0pJQXhLMVBGN3BxMk50dEQxL0svbjRWNWtMM3NFQUNpcXcxRC9IcEl2Z3Q4UndjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDk2NjI2CWZpbGU6R0FMTEVSWV8wLjIuNV94NjQtc2V0dXAuZXhlCnVhOE1uY3lmQlh0K1ZuZ2dua3dCMlpENTBHMDBHQURyalEzMnhkZmRneHF0MWMzTnVnWFlJTHpNaGt2TWdLVlRXNkgrYmZheTJrR2laVDBqNXdNZURnPT0K",
+      "url": "https://github.com/x0mirag0x/GALLERY-releases/releases/download/0.2.5/GALLERY_0.2.5_x64-setup.exe"
     }
   }
 }
