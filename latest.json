@@ -1,11 +1,11 @@
 {
   "version": "0.2.4",
-  "notes": "GALLERY 0.2.4 - поиск похожих по фото, защита путей при бэкапе, удобнее первая корневая папка",
-  "pub_date": "2026-10-08T16:20:01Z",
+  "notes": "GALLERY 0.2.4 - поиск по фото; портативное обновление больше не ставит установщик поверх ZIP; первая корневая папка удобнее",
+  "pub_date": "2026-10-08T17:25:00Z",
   "portableUrl": "https://github.com/x0mirag0x/GALLERY-releases/releases/download/0.2.4/GALLERY_0.2.4_x64-portable.zip",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZjNxaGcwT05vYk1vdXpER1UzQzhoeTM3MEJ6akZsTzBoQWMzMzJJV3h6ZTVHaW5zaXRYSlBCb2ovelI1R3dESEFFNkd2WFhhQ3RNSWROdHVPTTZHZlBLVXlxSlpBYkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDc2Mzg0CWZpbGU6R0FMTEVSWV8wLjIuNF94NjQtc2V0dXAuZXhlCm5tS2NIbXpNU3RNNEVxWkRobFFLYWVWRGF6VmsyNGs0aXpLbkFKSVZOckhmTnlYWFFxWndidmFaODVJZVVpaXkzbTJ4VnpDd0tWTjh6RmpzWjNlZUF3PT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZjNxaGcwT05vYkZNVTlWd1cwL2ZYSXdjZ3hiUG9IeVpKdmN6a0EyU25rTXVuWkp6eTZZSUZuZmdmYUJiNjdienpybDlUTktBSng5eUs2aFNsNjRrRlQ4ZDhYMlFFZEFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDgwMTY2CWZpbGU6R0FMTEVSWV8wLjIuNF94NjQtc2V0dXAuZXhlCkJhalltZll3bzd1YXM5YnlkT1J4aHpIbGs2VEhTZ1B1bk1iQ3ZtVjlVenhoVktSZ21xUldKSnQ4Z1hBZkV1ZXc3UDVhaWVxWlZPOFhNckMxQUUzMENnPT0K",
       "url": "https://github.com/x0mirag0x/GALLERY-releases/releases/download/0.2.4/GALLERY_0.2.4_x64-setup.exe"
     }
   }
