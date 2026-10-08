@@ -1,6 +1,6 @@
 {
   "version": "0.2.4",
-  "notes": "GALLERY 0.2.4 - search similar by photo, safer backup paths, smoother first library folder",
+  "notes": "GALLERY 0.2.4 - поиск похожих по фото, защита путей при бэкапе, удобнее первая корневая папка",
   "pub_date": "2026-10-08T16:20:01Z",
   "portableUrl": "https://github.com/x0mirag0x/GALLERY-releases/releases/download/0.2.4/GALLERY_0.2.4_x64-portable.zip",
   "platforms": {
