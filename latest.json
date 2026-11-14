@@ -1,16 +1,16 @@
 {
-    "version":  "0.2.6",
-    "notes":  "GALLERY 0.2.6 - кнопка Просмотр: макеты сетка/masonry/justified и размер миниатюр, настройки вида сохраняются",
-    "pub_date":  "2026-11-14T21:17:14Z",
-    "portableUrl":  "https://github.com/x0mirag0x/GALLERY-releases/releases/download/0.2.6/GALLERY_0.2.6_x64-portable.zip",
+    "version":  "0.2.7",
+    "notes":  "GALLERY 0.2.7 - исправлено обновление portable: кнопка больше не серая, «Обновить в моей папке» снова работает; в 0.2.6 - кнопка Просмотр (макеты и размер миниатюр)",
+    "pub_date":  "2026-11-14T21:50:04Z",
+    "portableUrl":  "https://github.com/x0mirag0x/GALLERY-releases/releases/download/0.2.7/GALLERY_0.2.7_x64-portable.zip",
     "portableExe":  {
-                        "url":  "https://github.com/x0mirag0x/GALLERY-releases/releases/download/0.2.6/GALLERY_0.2.6_x64-portable.exe",
-                        "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZjNxaGcwT05vYkpxWVJKeFB4R2lGbFlaZ09GQlE4bTlWM3orNUtVSzZ1QlV1bXFWNzI2YXhtTnlhVnFRZndBY1ZiM3BoOGtwZWZSRi9qZk9lZVArU1Z6MjhKZ25DOWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjkxMDA5CWZpbGU6R0FMTEVSWV8wLjIuNl94NjQtcG9ydGFibGUuZXhlCnBicEdqT0dtanI5ZVJFN0k0QnJ6SDFxakx2S09BbHpsVU1LMGY0bXdnR1d1UGNnT2x5UDlodUtoSzBrMmtjdGZBYkNkSDljcWVkSEpmWGo3OG9obkNBPT0K"
+                        "url":  "https://github.com/x0mirag0x/GALLERY-releases/releases/download/0.2.7/GALLERY_0.2.7_x64-portable.exe",
+                        "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZjNxaGcwT05vYkJiLzRKTGVVcjg5MzMwNUtZNDdWZ1ovQmdLZks4MzRmTVNQQ2hzMlFza3NHY1dVN3Q1QjNaUmJlOUhvUmhKbENXd1RSODkrOUJaUjBuOWh0LzAxRkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjkyOTg3CWZpbGU6R0FMTEVSWV8wLjIuN194NjQtcG9ydGFibGUuZXhlCmkvQnlDbG53c2pzSk9SRHZ1c3FKOXF5dGJ6SXZLMzJ6SG1yNlN1VlFSZ2JVMWUxTUJTcjhWQUd4TzcrZjNLb08ydXRoZVNUNkhhUTdxL08rcG1JNkN3PT0K"
                     },
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZjNxaGcwT05vYkh4RHlQcVpuWXIwZDRZS0cyQ0tsdGt6ZVY5M0tHK3FLYzFWbzJJa09vb3ZNRERsK1pkZGJORFlpNUYxWVdSbkMvbmtVWnlKWW51cis0SU5yak1ETFEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjkxMDEwCWZpbGU6R0FMTEVSWV8wLjIuNl94NjQtc2V0dXAuZXhlCkFuWUMwcVI0S1g5cDBERlRURzZUdE1CMU5BR1FOVWI2b09Pb2dLQ01uM1FRMWF2VnJub1ZLOHM1dWswaThXa2VvdjJzNUhoWDJMS2JENndPQVkybkFRPT0K",
-                                             "url":  "https://github.com/x0mirag0x/GALLERY-releases/releases/download/0.2.6/GALLERY_0.2.6_x64-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZjNxaGcwT05vYkRFbHNPTFRJODVWeER5VkhIdXB2MUx1THNnejF3QzRpQjZlZHMxQ292QzZteThJdDVNSWlJenJ3dGZDRUU3aXlVMDEzSjNGVWFOUlBwQ0dnb1FqUmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjkyOTg4CWZpbGU6R0FMTEVSWV8wLjIuN194NjQtc2V0dXAuZXhlClFvbjd3cDhsTHVGdlp0bnY1Z284NDllMGpyaHBMZFpQdWVBN1Vob0ttN1Z6RjRuTFlsUXVqbGJXUkdaZTJvdk1ZbmM1VlQ1SjFKa04wdWxqMGk5RkJnPT0K",
+                                             "url":  "https://github.com/x0mirag0x/GALLERY-releases/releases/download/0.2.7/GALLERY_0.2.7_x64-setup.exe"
                                          }
                   }
 }
